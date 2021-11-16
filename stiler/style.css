@@ -3,6 +3,7 @@ body{
     box-sizing: border-box;
     font-family: Arial;
     line-height: 1.5;
+    margin: 0;
 }
 
 /* nav */
@@ -37,7 +38,8 @@ body{
     grid-template-rows: auto auto;
     grid-gap: 2rem;
     margin-left: 15%;
-    margin-right: auto;  
+    margin-right: auto;
+    margin-bottom: 2rem;  
 }
 .forside{
     margin-left: 20%;
@@ -50,7 +52,6 @@ body{
 }
 .grid-boks{
     background-color: white;
-    font-size: 20px;
     text-align: center;
     padding: 20px;
     font-size: 1rem;
@@ -64,38 +65,21 @@ body{
     text-decoration: none;
     color: black;
 }
-@media all and (max-width: 600px){
-    #menylinje{
-        flex-direction: column;
-        margin-bottom: 2rem;
-        font-size: 1rem;
-        margin-right: 8%;
-    }
-    .knapp a{
-        padding: 0.5rem;
-    }
-    .hovedinnhold{
-        grid-template-columns: auto;
-        margin-left: 25%;
-        margin-right: 25%;
-        grid-gap: 1rem;
-        margin-top: 2rem;
-    } 
-    .grid-boks{
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-}
 footer{
-    margin-top: 2rem;
+    padding: 1rem;
     font-size: 1rem; 
     text-align: center;
+    box-sizing: border-box;
+    width: 60%;
+    background-color: wheat;
+    margin:auto;
 }
 
 /* innhold på artikkelsidene */
 .innhold{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2rem;
 }
 .overskrift{
     text-align: center;
@@ -126,6 +110,38 @@ article a{
     padding: 1rem;
     background-color: rgb(235, 235, 235);
 
+}
+
+@media all and (max-width: 700px){
+    #menylinje{
+        flex-direction: column;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        margin-right: 8%;
+    }
+    .knapp a{
+        padding: 0.5rem;
+    }
+    .hovedinnhold{
+        grid-template-columns: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        grid-gap: 1rem;
+        margin-top: 2rem;
+    } 
+    .grid-boks{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .innhold{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2rem;
+    }
+    footer{
+        font-size: 1rem; 
+        width: 80%;
+    }
 }
 @media all and (min-width: 1150px){
     article>img{
