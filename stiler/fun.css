@@ -1,0 +1,140 @@
+body{
+    font-family: Arial;
+}
+#menylinje{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.5vw; 
+}
+.knapp{
+    text-align: center;
+}
+.knapp a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+}
+.knapp a:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color:black;
+    color: black;
+}
+#ramme{
+    background-color: rgb(65, 46, 24);
+    padding: 10px;
+    position: relative;
+    font-family: Chalkduster, fantasy;
+}
+
+#bakgrunn img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.lapp{
+    background-color: rgb(248, 245, 66);
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(141, 108, 17, 0.712);
+    border:solid rgb(212, 210, 59) 0.5px;
+}
+.bildelapp{
+    background-color: rgb(248, 245, 66);
+    position: absolute;
+    box-shadow: 5px 5px 5px rgba(141, 108, 17, 0.712);
+    width: 20%;
+    height: 30%;
+}
+.bildelapp img{
+    width: 100%;
+    height: 100%;
+    
+}
+#lapp1{
+    top: 10%;
+    left: 35%;
+    color:rgb(175, 6, 6);
+    font-size: 2.5vw;
+}
+#lapp2{
+    top:8%;
+    left:50%;
+    transform: rotate(10deg);
+    color:rgb(6, 45, 175);
+    font-size: 2.5vw;
+}
+#lapp3{
+    top:30%;
+    left:42%;
+    transform: rotate(-10deg);
+    color:rgb(11, 114, 37);
+    font-size: 2vw;
+}
+#lapp4{
+    top:10%;
+    left:7%;
+    transform: rotate(-2deg);
+    font-size: 2vw;
+}
+#lapp5{
+    top:40%;
+    left:10%;
+    transform: rotate(5deg);
+    font-size: 2vw;
+}
+#lapp6{
+    top:70%;
+    left:30%;
+    transform: rotate(-2deg);
+    font-size: 2vw;
+}
+#lapp7{
+    top:65%;
+    left:50%;
+    transform: rotate(3deg);
+    font-size: 2vw;
+}
+#lapp8{
+    top:15%;
+    left:73%;
+    transform: rotate(-2deg);
+    font-size: 2vw;
+}
+#lapp9{
+    top:50%;
+    left:75%;
+    transform: rotate(10deg);
+}
+#lapp10{
+    top:65%;
+    left:9%;
+    transform: rotate(-20deg);
+}
+
+
+
+@media all and (max-width: 700px){
+    #menylinje{
+        flex-direction: column;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        margin-right: 8%;
+    }
+    .knapp a{
+        padding: 0.5rem;
+    }
+}
+
+footer{
+    margin-top: 2rem;
+    font-size: 1rem; 
+    text-align: center;
+}
