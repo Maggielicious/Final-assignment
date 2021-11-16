@@ -75,8 +75,8 @@ body{
     }
     .hovedinnhold{
         grid-template-columns: auto;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
         grid-gap: 1rem;
         margin-top: 2rem;
     } 
