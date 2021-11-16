@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+/* nav */
+#menylinje{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 2vw; 
+}
+.knapp{
+    text-align: center;
+}
+.knapp a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+}
+.knapp a:hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color:black;
+    color: black;
+}
+
+/* hovedinnhold på forsiden */
+.hovedinnhold{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto auto;
+    grid-gap: 2rem;
+    margin-left: 15%;
+    margin-right: auto;  
+}
+.forside{
+    margin-left: 20%;
+    width:80%;
+}
+.grid-boks>img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 0.5rem;
+}
+.grid-boks{
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+.grid-boks>a{
+    display: block;
+    margin: 20px auto 20px auto;
+    border: solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+@media all and (max-width: 600px){
+    #menylinje{
+        flex-direction: column;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        margin-right: 8%;
+    }
+    .knapp a{
+        padding: 0.5rem;
+    }
+    .hovedinnhold{
+        grid-template-columns: auto;
+        margin-left: 25%;
+        margin-right: 25%;
+        grid-gap: 1rem;
+        margin-top: 2rem;
+    } 
+    .grid-boks{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+footer{
+    margin-top: 2rem;
+    font-size: 1rem; 
+    text-align: center;
+}
+
+/* innhold på artikkelsidene */
+.innhold{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.overskrift{
+    text-align: center;
+}
+article img{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0 1rem 0;
+    
+}
+article a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+}
+.sitat{
+    display: block;
+    border-left: 5px solid rgb(221, 155, 69);
+    padding: 1rem;
+    font-style: italic;  
+}
+.link{
+    display: block;
+    border-left: 5px solid rgb(118, 154, 209);
+    padding: 1rem;
+    background-color: rgb(235, 235, 235);
+
+}
+@media all and (min-width: 1150px){
+    article>img{
+        float: right;
+        max-width: 60%;
+        padding: 1rem;
+    }
+}
+
+
+
+
