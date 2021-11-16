@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
-    font-size: 2.2vw; 
+    font-size: 2vw; 
 }
 .knapp{
     text-align: center;
