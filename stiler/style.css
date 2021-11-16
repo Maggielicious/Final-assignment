@@ -64,30 +64,7 @@ body{
     text-decoration: none;
     color: black;
 }
-@media all and (max-width: 600px){
-    #menylinje{
-        flex-direction: column;
-        margin-bottom: 2rem;
-        font-size: 1.2rem;
-        margin-right: 8%;
-    }
-    .knapp a{
-        padding: 0.5rem;
-    }
-    .hovedinnhold{
-        grid-template-columns: auto;
-        margin-left: 10%;
-        margin-right: 10%;
-        grid-gap: 1rem;
-        margin-top: 2rem;
-    } 
-    .grid-boks{
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-}
 footer{
-    margin-top: 1rem;
     padding: 1rem;
     font-size: 1rem; 
     text-align: center;
@@ -101,6 +78,7 @@ footer{
 .innhold{
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 2rem;
 }
 .overskrift{
     text-align: center;
@@ -131,6 +109,34 @@ article a{
     padding: 1rem;
     background-color: rgb(235, 235, 235);
 
+}
+
+@media all and (max-width: 600px){
+    #menylinje{
+        flex-direction: column;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        margin-right: 8%;
+    }
+    .knapp a{
+        padding: 0.5rem;
+    }
+    .hovedinnhold{
+        grid-template-columns: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        grid-gap: 1rem;
+        margin-top: 2rem;
+    } 
+    .grid-boks{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .innhold{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2rem;
+    }
 }
 @media all and (min-width: 1150px){
     article>img{
