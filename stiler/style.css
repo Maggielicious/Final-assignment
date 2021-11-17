@@ -71,7 +71,7 @@ footer{
     text-align: center;
     box-sizing: border-box;
     width: 60%;
-    background-color: wheat;
+    background-color: #a4b7d2;
     margin:auto;
 }
 
@@ -100,13 +100,13 @@ article a{
 }
 .sitat{
     display: block;
-    border-left: 5px solid rgb(221, 155, 69);
+    border-left: 5px solid #a4b7d2;
     padding: 1rem;
     font-style: italic;  
 }
 .link{
     display: block;
-    border-left: 5px solid rgb(118, 154, 209);
+    border-left: 5px solid #a4b7d2;
     padding: 1rem;
     background-color: rgb(235, 235, 235);
 
