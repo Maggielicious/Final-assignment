@@ -17,6 +17,7 @@ body{
 .knapp{
     text-align: center;
 }
+
 .knapp a{
     text-decoration: none;
     color:black;
@@ -24,6 +25,7 @@ body{
 	flex-direction: column;
 	padding: 1.5rem;
 }
+
 .knapp a:hover{
     background-color: rgb(255, 255, 255);
     border-style: solid;
@@ -41,21 +43,26 @@ body{
     margin-right: auto;
     margin-bottom: 2rem;  
 }
+
 .forside{
     margin-left: 20%;
-    width:80%;
+    width: 80%;
 }
+
+/* bokser med artikler */
 .grid-boks>img{
     max-width: 100%;
     height: auto;
     padding-bottom: 0.5rem;
 }
+
 .grid-boks{
     background-color: white;
     text-align: center;
     padding: 20px;
     font-size: 1rem;
 }
+
 .grid-boks>a{
     display: block;
     margin: 20px auto 20px auto;
@@ -65,6 +72,8 @@ body{
     text-decoration: none;
     color: black;
 }
+
+/* footer */
 footer{
     padding: 1rem;
     font-size: 1rem; 
@@ -81,9 +90,11 @@ footer{
     margin-right: 20%;
     margin-bottom: 2rem;
 }
+
 .overskrift{
     text-align: center;
 }
+
 article img{
     max-width: 100%;
     height: auto;
@@ -98,12 +109,14 @@ article a{
     font-weight: bold;
 
 }
+
 .sitat{
     display: block;
     border-left: 5px solid #a4b7d2;
     padding: 1rem;
     font-style: italic;  
 }
+
 .link{
     display: block;
     border-left: 5px solid #a4b7d2;
@@ -112,6 +125,7 @@ article a{
 
 }
 
+/* andre skjermstørrelser */
 @media all and (max-width: 700px){
     #menylinje{
         flex-direction: column;
@@ -119,9 +133,11 @@ article a{
         font-size: 1.2rem;
         margin-right: 8%;
     }
+
     .knapp a{
         padding: 0.5rem;
     }
+
     .hovedinnhold{
         grid-template-columns: auto;
         margin-left: 10%;
@@ -129,20 +145,24 @@ article a{
         grid-gap: 1rem;
         margin-top: 2rem;
     } 
+
     .grid-boks{
         grid-column-start: 1;
         grid-column-end: 2;
     }
+
     .innhold{
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 2rem;
     }
+
     footer{
         font-size: 1rem; 
         width: 80%;
     }
 }
+
 @media all and (min-width: 1150px){
     article>img{
         float: right;
