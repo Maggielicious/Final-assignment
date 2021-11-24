@@ -174,7 +174,7 @@ article a{
         width: 80%;
     }
 }
-@media all and (min-width: 701px; max-width: 1000px) {
+@media all and (min-width: 701px) and (max-width: 960px) {
 
     .hovedinnhold{
         grid-template-columns: auto;
