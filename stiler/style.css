@@ -180,10 +180,10 @@ article a{
         display: grid;
         grid-template-columns: 45% 45%;
         grid-template-rows: auto auto;
-        grid-gap: 2rem;
+        grid-gap: 1.5rem;
         margin-left: 5%;
         margin-right: auto;
-        margin-bottom: 2rem;  
+        margin-bottom: 1.5rem;  
     }
     .innhold{
         margin-left: 15%;
