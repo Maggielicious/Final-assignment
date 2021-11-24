@@ -76,6 +76,9 @@ header {
     text-decoration: none;
     color: black;
 }
+.grid-boks>a:hover{
+background-color: #a4b7d2;
+}
 
 /* footer */
 footer{
