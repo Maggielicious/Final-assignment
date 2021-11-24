@@ -77,7 +77,7 @@ header {
     color: black;
 }
 .grid-boks>a:hover{
-background-color: #a4b7d2;
+    background-color: #a4b7d2;
 }
 
 /* footer */
@@ -101,6 +101,7 @@ footer{
 .overskrift{
     text-align: center;
     margin-bottom: 3rem;
+    font-size: 1.5rem;
 }
 
 article img{
