@@ -28,8 +28,9 @@ body{
 
 .knapp a:hover{
     background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color:black;
+    background-color: rgb(200, 208, 208);
+    border-style: solid 1px;
+    border-color:black; 
     color: black;
 }
 
