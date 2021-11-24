@@ -164,7 +164,7 @@ body{
     #menylinje{
         flex-direction: column;
         margin-bottom: 2rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .knapp a{
         padding: 0.5rem;
