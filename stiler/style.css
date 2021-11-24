@@ -144,7 +144,6 @@ article a{
         flex-direction: column;
         margin-bottom: 2rem;
         font-size: 1.2rem;
-        margin-right: 8%;
     }
 
     .knapp a{
@@ -175,7 +174,6 @@ article a{
         width: 80%;
     }
 }
-
 @media all and (min-width: 1150px){
     article>img{
         float: right;
