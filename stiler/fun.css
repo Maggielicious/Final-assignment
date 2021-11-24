@@ -170,6 +170,16 @@ body{
         padding: 0.5rem;
     }
 }
+@media all and (min-width: 701px) and (max-width: 960px) {
+    #menylinje{
+        flex-direction: column;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+    .knapp a {
+        padding: 0.5rem;
+    }
+}
 
 /* footer */
 footer{
