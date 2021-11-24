@@ -4,10 +4,12 @@ body{
 
 /* nav */
 #menylinje{
+    margin-top: 0;
     display: flex;
     justify-content: center;
     list-style: none;
-    font-size: 1.5vw; 
+    font-size: 2vw; 
+    border-bottom: 2px solid rgba(200, 200, 200, 0.7);
 }
 
 .knapp{
@@ -23,10 +25,7 @@ body{
 }
 
 .knapp a:hover{
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color:black;
-    color: black;
+    background-color: rgb(200, 208, 208);
 }
 
 /* hovedinnhold på siden */
