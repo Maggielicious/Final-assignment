@@ -15,8 +15,10 @@ header {
 /* nav */
 #menylinje{
     margin-top: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
+    align-items: stretch;
     list-style: none;
     font-size: 2vw; 
     border-bottom: 2px solid rgba(200, 200, 200, 0.7);
@@ -28,8 +30,7 @@ header {
 .knapp a{
     text-decoration: none;
     color:black;
-    display: flex;
-	flex-direction: column;
+    display: inline-block;
 	padding: 1.5rem;
 }
 
