@@ -184,11 +184,6 @@ article a{
         margin-top: 2rem;
     } 
 
-    .grid-boks{
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-
     .innhold{
         margin-left: 15%;
         margin-right: 15%;
