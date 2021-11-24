@@ -107,8 +107,8 @@ footer{
 article img{
     max-width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     padding: 1rem 0 1rem 0;
 }
 
@@ -127,7 +127,7 @@ article a{
 }
 
 .link{
-    display: block;
+    display: flex;
     border-left: 5px solid #a4b7d2;
     padding: 1rem;
     background-color: rgb(235, 235, 235);
