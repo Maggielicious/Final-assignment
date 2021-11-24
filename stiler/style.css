@@ -133,6 +133,9 @@ article a{
     background-color: rgb(235, 235, 235);
 
 }
+.ingress {
+    font-weight: bold;
+}
 
 /* andre skjermstørrelser */
 @media all and (max-width: 700px){
