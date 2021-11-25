@@ -141,6 +141,9 @@ article a{
 
 /* andre skjermstørrelser */
 @media all and (max-width: 700px){
+    header {
+        position: static;
+    }
     #menylinje{
         flex-direction: column;
         margin-bottom: 2rem;
@@ -153,8 +156,8 @@ article a{
 
     .hovedinnhold{
         grid-template-columns: auto;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         grid-gap: 1rem;
         margin-top: 2rem;
     } 
