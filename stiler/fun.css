@@ -1,9 +1,14 @@
+html {
+    margin: 0;
+}
 body{
     font-family: Arial;
     margin: 0;
     line-height: 1.5;
 }
-
+p {
+    margin-bottom: 0;
+}
 /* nav */
 #menylinje{
     margin-top: 0;
@@ -37,7 +42,11 @@ body{
     padding: 10px;
     position: relative;
     font-family: Chalkduster, fantasy;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 2rem;
+    overflow: hidden;
 }
 
 #bakgrunn img{
@@ -82,7 +91,7 @@ body{
 
 #lapp1{
     top: 10%;
-    left: 35%;
+    left: 32%;
     color:rgb(175, 6, 6);
     font-size: 2.5vw;
 }
